@@ -17,6 +17,7 @@ body{
 
 header {
     background-color: rgb(31, 112, 233);
+    background-image: linear-gradient(to right, blue, rgb(15, 118, 153), lightblue);
 }
 
 h1{
@@ -37,6 +38,7 @@ ul{
 #nosotros {
     display: grid;
     grid-template-columns: 450px 600px;
+    background-image: linear-gradient(orange, lightblue, darkviolet);
 }
 
 /* lista nav*/
@@ -125,9 +127,6 @@ color: whitesmoke;
  /*SMARTPHONE*/
 
 @media (max-width: 480px){
-    header{
-        background-color: black;
-    }
 
     #nosotros {
         display: grid;
@@ -142,10 +141,6 @@ color: whitesmoke;
 /* TABLET */
 
 @media (min-width: 481px) and (max-width: 1023px) {
-    header{
-        background-color: red;
-    }
-
     #nosotros {
         display: grid;
         grid-template-columns: 400px;
@@ -153,5 +148,58 @@ color: whitesmoke;
     img{
         width: 400px;
         height: 350px;
+    }
+}
+
+/*transiciones*/
+
+h1 {
+    transition: 2s;
+}
+
+h1:hover{
+    color: black;
+}
+
+.logo {
+    transition: 1s;
+}
+
+.logo:hover{
+    height: 150px;
+    width: 150px;
+}
+
+.imgRedes{
+    transition: 1s;
+}
+
+.imgRedes:hover{
+    height: 50px;
+    width: 50px;
+}
+
+/*animaciones*/
+h1{
+    animation-name: animado;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+h2{
+    animation-name: animado;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+/*keyframe*/
+@keyframes animado {
+    from{ 
+        transform: translateX(-1280px)
+    }
+    to{
+        transform: translateX(0)
     }
 }
