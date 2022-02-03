@@ -124,11 +124,29 @@ text-align: center;
 color: whitesmoke;
 }
 
+.card-title, .card-text{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.card-text{
+    text-decoration: none;
+}
+
+.btn{
+    font-size: 20px;
+    text-decoration: solid;
+}
+.form-control{
+    width: 80%;
+}
+
  /*SMARTPHONE*/
 
 @media (max-width: 480px){
 
-    #nosotros {
+    #nosotros{
         display: grid;
         grid-template-columns: 300px;
     }
