@@ -128,6 +128,7 @@ color: whitesmoke;
     text-align: left;
     text-decoration: underline;
     font-size: 25px;
+    color: black;
 }
 
 .card-text{
@@ -142,6 +143,9 @@ color: whitesmoke;
     width: 80%;
 }
 
+.form-select{
+    width: 10%;
+}
  /*SMARTPHONE*/
 
 @media (max-width: 480px){
