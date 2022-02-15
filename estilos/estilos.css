@@ -38,10 +38,14 @@ ul{
 #nosotros {
     display: grid;
     grid-template-columns: 450px 600px;
-    background-image: linear-gradient(orange, lightblue, darkviolet);
+    background-image: linear-gradient(blue, rgb(10, 110, 143), rgb(22, 88, 230));
 }
 
 /* lista nav*/
+
+.listaNav{
+        color: white;
+}
 
 li{
         padding: 50px;
@@ -72,6 +76,7 @@ img{
 }
 
 .faq{
+        color: white;
         margin-right: 49px;
 }
 
