@@ -1,12 +1,13 @@
 /* ESTO ES UN COMENTARIO DE CSS PURO */
 ul {
   text-align: center;
-  color: white li;
-    color-padding: 50px;
-    color-font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color-font-size: 18px;
-    color-text-align: center;
-    color-list-style-type: none;
-    color-list-style-position: inside;
-    color-color: #c07a1f;
-    color-display: inline-block; }
+  color: white; }
+  ul li {
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    list-style-type: none;
+    list-style-position: inside;
+    color: #c07a1f;
+    display: inline-block; }
