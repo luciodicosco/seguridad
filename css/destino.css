@@ -1,2 +1,12 @@
 /* ESTO ES UN COMENTARIO DE CSS PURO */
-@import url(/estilos/estilos.css);
+ul {
+  text-align: center;
+  color: white li;
+    color-padding: 50px;
+    color-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color-font-size: 18px;
+    color-text-align: center;
+    color-list-style-type: none;
+    color-list-style-position: inside;
+    color-color: #c07a1f;
+    color-display: inline-block; }

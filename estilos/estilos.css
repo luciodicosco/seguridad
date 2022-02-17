@@ -38,7 +38,7 @@ ul{
 #nosotros {
     display: grid;
     grid-template-columns: 450px 600px;
-    background-image: linear-gradient(blue, rgb(10, 110, 143), rgb(22, 88, 230));
+    background-image: linear-gradient(lightblue, cadetblue, rgb(104, 194, 197));
 }
 
 /* lista nav*/
@@ -186,6 +186,10 @@ h1 {
 
 h1:hover{
     color: black;
+}
+
+.listaNav:hover{
+    color:black
 }
 
 .logo {

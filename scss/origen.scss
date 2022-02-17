@@ -1,3 +1,19 @@
 /* ESTO ES UN COMENTARIO DE CSS PURO */
 
-@import "/estilos/estilos.css"
+$centrado: center;
+
+ul {
+    text-align: $centrado;
+    color: white
+            li{
+                padding: 50px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px;
+                text-align: $centrado;
+                list-style-type: none;
+                list-style-position: inside;
+                color: rgb(192, 122, 31);
+                display: inline-block;
+        }
+}
+
