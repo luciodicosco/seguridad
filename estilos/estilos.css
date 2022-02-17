@@ -119,6 +119,18 @@ color: black;
     color: whitesmoke
 }
 
+.red{
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+.redDos{
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
 .imgRedes{
     width: 30px;
     height: 30px;

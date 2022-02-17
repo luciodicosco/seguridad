@@ -17,3 +17,46 @@ ul {
         }
 }
 
+/* MAPA */
+$colores:(
+    facebook: blue,
+    instagram: violet,
+    twitter: lightblue,
+    youtube: red,
+);
+
+/* EACH */
+@each $name-color, $color in $colores{
+    .redes-#{$name-color}{
+        color: $color;
+        border: $color;
+    }
+}
+
+/* Extend */
+.red{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.redDos{
+    @extend.red;
+    color:rgb(143, 44, 209)
+}
+
+/* Mixin */
+@mixin tamanio ($ancho, $altura){
+    width: $ancho;
+    height: $altura;
+}
+
+img{
+    @include tamanio(575px, 500px)
+}
+
+.logo{
+    @include tamanio(75px, 75px)
+}

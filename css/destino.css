@@ -11,3 +11,41 @@ ul {
     list-style-position: inside;
     color: #c07a1f;
     display: inline-block; }
+
+/* MAPA */
+/* EACH */
+.redes-facebook {
+  color: blue;
+  border: blue; }
+
+.redes-instagram {
+  color: violet;
+  border: violet; }
+
+.redes-twitter {
+  color: lightblue;
+  border: lightblue; }
+
+.redes-youtube {
+  color: red;
+  border: red; }
+
+/* Extend */
+.red, .redDos {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Verdana, Geneva, Tahoma, sans-serif; }
+
+.redDos {
+  color: #8f2cd1; }
+
+/* Mixin */
+img {
+  width: 575px;
+  height: 500px; }
+
+.logo {
+  width: 75px;
+  height: 75px; }
