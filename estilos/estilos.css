@@ -7,7 +7,6 @@
 /*sintaxis de css
 selector{
     propiedad:valor;
-
 }*/
 
 
@@ -40,7 +39,10 @@ ul{
     grid-template-columns: 450px 600px;
     background-image: linear-gradient(lightblue, cadetblue, rgb(104, 194, 197));
 }
-
+.card{
+    display: grid;
+    grid-template-columns: 275px 450px;
+}
 /* lista nav*/
 
 .listaNav{
@@ -75,7 +77,7 @@ img{
     height: 500px;
 }
 
-.faq{
+.certificaciones{
         color: white;
         margin-right: 49px;
 }
@@ -175,7 +177,12 @@ color: whitesmoke;
         width: 250px;
         height: 200px;
     }
+    .card{
+        display: grid;
+        grid-template-columns: 75px 250px;
+    }
 }
+
 
 /* TABLET */
 
@@ -188,7 +195,12 @@ color: whitesmoke;
         width: 400px;
         height: 350px;
     }
+    .card{
+        display: grid;
+        grid-template-columns: 150px 300px;
+    }
 }
+
 
 /*transiciones*/
 
