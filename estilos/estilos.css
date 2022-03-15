@@ -4,33 +4,67 @@
     box-sizing: border-box;
 }
 
-/*sintaxis de css
-selector{
-    propiedad:valor;
-}*/
+/* #region Header */
+    .headerContenedor{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px 10px 20px;
+    }
 
-body{
-    background-color: cadetblue;
-}
+    .tituloContenedor{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+    }
 
-header {
-    background-color: rgb(31, 112, 233);
-    background-image: linear-gradient(to right, blue, rgb(15, 118, 153), lightblue);
-}
+    .titulo{
+        margin-left: 10px;
+        color: #000000;
+    }
 
-h1{
-    color: white;
-    font-style: italic;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
+    .hambButton{
+        width: 55px;
+        height: 55px;
+    }
 
-ul{
-    text-align: center;
-    color: white
-}
+    .closeButton{
+        width: 30px;
+        height: 30px;
+    }
+
+    .menuContenedor{
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        align-items: flex-end;
+        right: 0px;
+        width: auto;
+        height: 100%;
+        background: #FFFFFF;
+        box-shadow: -10px 0px 10px 1px rgba(170, 170, 170, 0.075);
+    }
+
+    .lista{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    .listaNav{
+        color: #000000;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 20px 20px 20px 20px;
+    }
+/* #endregion */
 
 /* GRIDS */
 
@@ -42,22 +76,6 @@ ul{
 .card{
     display: grid;
     grid-template-columns: 275px 450px;
-}
-/* lista nav*/
-
-.listaNav{
-        color: white;
-}
-
-li{
-        padding: 50px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 18px;
-        text-align: center;
-        list-style-type: none;
-        list-style-position: inside;
-        color: rgb(192, 122, 31);
-        display: inline-block;
 }
 
 .logo{
@@ -75,11 +93,6 @@ h2{
 img{
     width: 575px;
     height: 500px;
-}
-
-.certificaciones{
-        color: white;
-        margin-right: 49px;
 }
 
 .lorem{
@@ -204,27 +217,6 @@ color: whitesmoke;
 
 /*transiciones*/
 
-h1 {
-    transition: 2s;
-}
-
-h1:hover{
-    color: black;
-}
-
-.listaNav:hover{
-    color:black
-}
-
-.logo {
-    transition: 1s;
-}
-
-.logo:hover{
-    height: 150px;
-    width: 150px;
-}
-
 .imgRedes{
     transition: 1s;
 }
@@ -235,12 +227,6 @@ h1:hover{
 }
 
 /*animaciones*/
-h1{
-    animation-name: animado;
-    animation-iteration-count: 1;
-    animation-duration: 5s;
-    animation-delay: 0s;
-}
 
 h2{
     animation-name: animado;
