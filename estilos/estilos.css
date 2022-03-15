@@ -91,6 +91,7 @@ ul{
 }
 .fondo{
     background-image: linear-gradient(lightblue, cadetblue, rgb(104, 194, 197));
+    padding: 0px 70px 0px 70px;
 }
 .card{
     display: grid;
