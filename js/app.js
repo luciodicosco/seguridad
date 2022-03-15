@@ -1,8 +1,21 @@
-$(".hambButton").click(function () {
-    $(".menuContenedor").animate({ width: '100px' });
-})
+var menulateral = false
 
+$(document).ready(function () {
+    if (menulateral == false) {
+        console.log("menu cerrado")
+    };
+    if (menulateral == true) {
+        console.log("menu abierto")
+    };
+}
+)
 
-$(".closeButton").click(function () {
-    $(".menuContenedor").animate({ width: '0px' });
+$(function () {
+    $('#hambButton').click(function () {
+        $('.menuContenedor').slideDown();
+    })
+
+    $('#closeButton').click(function () {
+        $('.menuContenedor').slideUp();
+    })
 })
